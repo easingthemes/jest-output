@@ -1,4 +1,5 @@
 **Do you want to request a _feature_ or report a _bug_?**
+
 bug
 
 **What is the current behavior?**
@@ -9,7 +10,7 @@ jest output is using `stderr`.
 either a repl.it demo through https://repl.it/languages/jest or a minimal
 repository on GitHub that we can `yarn install` and `yarn test`.**
 
-This repo has `task.js` file which uses `nodejs spawn` to run `npm test` (`jest`) and print output by type.
+This repo (https://github.com/easingthemes/jest-output) has `task.js` file which uses `nodejs spawn` to run `npm test` (`jest`) and print output by type.
 
 
 command:
