@@ -4,7 +4,7 @@
   "description": "Jest output test",
   "scripts": {
     "test": "jest",
-    "nodeTest": "node ./task.js"
+    "spwanJest": "node ./task.js"
   },
   "repository": {
     "type": "git",
