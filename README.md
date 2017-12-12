@@ -5,16 +5,17 @@ bug
 
 jest output is using `stderr`.
 
+**If the current behavior is a bug, please provide the steps to reproduce and
+either a repl.it demo through https://repl.it/languages/jest or a minimal
+repository on GitHub that we can `yarn install` and `yarn test`.**
+
+This repo has `task.js` file which uses `nodejs spawn` to run `npm test` (`jest`) and print output by type.
+
+
 command:
 
 ```
 node ./task.js
-```
-
-npm command config:
-
-```
-"test": "jest",
 ```
 
 Output:
@@ -35,12 +36,6 @@ Ran all test suites.
 ```
 
 
-**If the current behavior is a bug, please provide the steps to reproduce and
-either a repl.it demo through https://repl.it/languages/jest or a minimal
-repository on GitHub that we can `yarn install` and `yarn test`.**
-
-This repo has `task.js` file which uses `nodejs spawn` to run `npm test` (`jest`) and print output by type.
-
 **What is the expected behavior?**
 
 Not using `stderr` for output, use `stdout` instead.
@@ -54,3 +49,4 @@ npm: 5.0.3
 jest: ^21.2.1
 MacOS 10.12.6
 ```
+
