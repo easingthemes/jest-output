@@ -1,0 +1,22 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Jest output test",
+  "scripts": {
+    "test": "jest",
+    "nodeTest": "node ./task.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easingthemes/jest-output.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easingthemes/jest-output/issues"
+  },
+  "homepage": "https://github.com/easingthemes/jest-output#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
